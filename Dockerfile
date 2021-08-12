@@ -1,4 +1,4 @@
-FROM y2khub/watchcat-bot-base AS build
+FROM idkjs/watchcat-bot-base AS build
 
 COPY --chown=opam dune-project /app/dune-project
 COPY --chown=opam dune /app/dune
